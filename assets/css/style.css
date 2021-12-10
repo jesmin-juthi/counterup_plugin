@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main{
+    width: 1200px;
+    margin: 100px auto;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.single-box{
+    width: 25%;
+    text-align: center;
+    background-color: teal;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.single-box h4 {
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+.single-box h4 span {
+    display: block;
+    font-size: 50px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter up plugin</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <div class="single-box">
+                <h4><span class="counter">235</span>projects</h4>
+            </div><!-- /.single-box -->
+            <div class="single-box">
+                <h4><span class="counter">35</span>awards</h4>
+            </div><!-- /.single-box -->
+            <div class="single-box">
+                <h4><span class="counter">7000</span>lines of codes</h4>
+            </div><!-- /.single-box -->
+            <div class="single-box">
+                <h4><span class="counter">5</span>years of experience</h4>
+            </div><!-- /.single-box -->
+        </div><!-- /.box -->
+    </div><!-- /.main -->
+
+    <script src="assets/js/jquery-1.12.0.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.counter').counterUp({
+                time: 1000
+            });
+        });
+    </script>
+
+
+</body>
+</html>
